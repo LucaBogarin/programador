@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        document.write('EJERCICIO 2<br>')
+        var metros = prompt('Ingrese la distancia de su recorrido');
+        if(metros<1000){
+            document.write('Usted deberia optar por caminar');
+        }else if ((metros=>1000) && (metros < 10000)){
+            document.write('Usted deberia optar por ir en bicicleta');
+        }else if ((metros=>10000) && (metros < 30000)){
+            document.write('Usted deberia optar por ir en colectivo');
+        }else if ((metros=>30000) && (metros < 100000)){
+            document.write('Usted deberia optar por ir en automovil');
+        }else{
+            document.write('Usted deberia optar por ir en avion');
+        }
+    </script>
+    <script>
+
+        document.write('<br>EJERCICIO 1');
+        var array = [8,7,88,2,3];
+        var maximo;
+        for (var i = 0 ; i < array.length; i++){
+             if(i==0){
+                 maximo=array[i];
+             }
+             if(array[i]>maximo){
+                 maximo=array[i];
+             }
+        }
+        document.write('<br>El maximo es: ');
+        document.write(maximo);
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
