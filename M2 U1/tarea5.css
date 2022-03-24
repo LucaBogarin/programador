@@ -1,0 +1,36 @@
+
+#botones{
+    background-color: transparent;
+}
+#btnrojo{
+    background-color: red;
+    height: 150px;
+    width: 150px;
+    float: left;
+}
+#btnyellow{
+    background-color: yellow;
+    height: 150px;
+    width: 150px;
+    float: left;
+   
+}
+#btnverde{
+    background-color: green;
+    height: 150px;
+    width: 150px;
+    float: left;
+}
+input{
+    width: 150px;
+    height: 150px;
+    border: none;
+    
+    cursor: pointer;
+    outline: none;
+    font-weight: bold;
+    text-transform: capitalize;
+    border-radius: 10px;
+    
+
+}
