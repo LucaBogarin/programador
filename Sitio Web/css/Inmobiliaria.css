@@ -1,9 +1,14 @@
-footer{
+footer {
     background-color: #aaa;
 }
-h1, h2{
-    font-family: 'alfa slab one', cursive;
-}
-.hero{
-    background: url("programador web 1\Sitio Web\img\casa foto fondo.jpg")
+
+
+
+.hero {
+    background: url(../img/foto.jpg) no-repeat;
+    background-size: cover;
+    height: 50vh;
+    min-height: 600px;
+    color: white;
+
 }
