@@ -1,0 +1,75 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Pepito</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Comprar</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Vender
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Casa</a>
+                        <a class="dropdown-item" href="#">Departamento</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Terreno</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contacto</a>
+                </li>
+            </ul>
+
+        </div>
+    </nav>
+    <div class="container-fluid">
+        <div id="Inicio" class="row align-items-center hero">
+            <div class="col-lg-3 offset-lg-2">
+                <p></p>
+                <h1>ENCONTRA EL HOGAR QUE TANTO SOÑASTE</h1>
+
+
+            </div>
+
+        </div>
+        <form action="/" method="post">
+            <div class="col-md-4 mt-4 mt-sm-0">
+                <h2>¿Tenes una consulta? ¡Contactanos!</h2>
+                <div class="form-group col-lg-4 row 0">
+                    <label for="nombre">Nombre y apellido</label>
+                    <input type="nombre" class="form-control" id="nombre" placeholder="..." name="nombre">
+                </div>
+                <div class="form-group col-lg-4 row 0">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="---@email.com" name="email">
+                </div>
+                <div class="form-group col-lg-4 row 0">
+                    <label for="telefono">Telefono</label>
+                    <input type="text" class="form-control" id="telefono" placeholder="..." name="telefono">
+                </div>
+                <div class="form-group col-lg-4 row 0">
+                    <label for="mensaje">Mensaje</label>
+                    <textarea class="form-control" id="mensaje" rows="4" placeholder="..." name="mensaje">
+                    </textarea>
+                </div>
+
+                <button type="enviar" class="btn btn-primary">Enviar</button>
+        </form>
+        {{#if Mensaje}}
+        {{Mensaje}}
+        {{/if}}
+    </div>
+    <footer>
+        <p class="text-center">Diseñado por Luca Bogarin 2022</p>
+    </footer>
+    </div>
