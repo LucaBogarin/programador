@@ -18,7 +18,7 @@ router.post('/', async (req, res, next) => {
   var obj = {
     to: 'lucabogarin2002@gmail.com',
     subject: 'CONTACTO WEB',
-    html: nombre + "se contacto a traves de la web y quiere mas informacion a este correo" + email + ".<br> Ademas, hizo este comentario : " + mensaje + ".<br> Su telefono es: " + telefono
+    html: nombre + " se contacto a traves de la web y quiere mas informacion a este correo " + email + ".<br> Ademas, hizo este comentario : " + mensaje + ".<br> Su telefono es: " + telefono
   }
   var transport = nodemailer.createTransport({
     host: process.env.SMTP_HOST,
@@ -34,5 +34,7 @@ router.post('/', async (req, res, next) => {
     Mensaje: 'Mensaje enviado correctamente'
   });
 });
+
+
 
 module.exports = router;

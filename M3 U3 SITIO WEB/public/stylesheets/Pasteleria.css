@@ -1,0 +1,164 @@
+footer {
+    background-color: #aaa;
+}
+
+
+
+body {
+    padding: 50px;
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  }
+  
+  a {
+    color: #00B7FF;
+  }
+h1,h2{
+    color: black;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+}
+.tituloNovedades{
+    color: #8ac3b8;
+}
+li{
+    color: #8ac3b8;
+}
+footer{
+    background-color:#8ac3b8;
+}
+nav{
+    background-color:#8ac3b8;
+    
+      
+}
+.fondoImagen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+.logoPeque{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  width: 300px;
+  height: 300px;
+}
+
+.carousel-item{
+    height: 850px;
+}
+
+.quienesSomos{
+    text-align: left;
+    color: #5fa597;
+}
+
+.imagenQuienesSomos{
+height:400px ;
+width: 600px;
+}
+
+.ContenedorImagenes{
+  display: flex;
+}
+
+.ComoComprar{
+text-align: left;
+color: #5fa597;
+width: 50%;
+}
+
+.Contenedor-general{
+    display: flex;
+}
+
+
+
+.div-container {
+    margin-left: 40px;
+    background-color: #5fa597;
+    height:570px;
+    width: 100%;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.418);
+    max-width: 600px;
+  }
+
+  .div-container h2 {
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
+    padding: 12px;
+
+  }
+
+  .description strong{
+    color: rgb(141, 98, 98)
+  }
+
+  .contacto-link{
+    text-decoration: none;
+  }
+
+  .contacto-link:hover{
+    background-color: rgba(255, 85, 55, 0.185);;
+  }
+
+  .contacto-link::after{
+    background-color: rgba(255, 85, 55, 0.185);;
+  }
+
+
+  .form-contacto  form input {
+    width: 90%;
+    padding: 10px;
+    margin: 20px;
+
+  }
+
+
+
+
+  .boton-formulario {
+    background-color: #e93790;
+    color: #fff;
+    border-radius: 6px;
+    margin: auto;
+    display: flex;
+    padding: 5px 50px;
+    font-size: 14px;
+    margin-top: 20px;
+    border-radius: 2px;
+    border: 0px;
+  }
+
+
+
+  .form-contacto input {
+    border: none;
+    border-bottom: 0.5px solid #3498db;
+    background-color: rgb(229, 231, 235);
+    border-radius: 4px;
+  }
+  
+  #mensaje{
+    border: none;
+    border-bottom: 0.5px solid #3498db;
+    background-color: rgb(229, 231, 235);
+    border-radius: 4px;
+    margin-left: 20px;
+    width: 540px;
+  }
+
+  label{
+    position: relative;
+    left: 20px;
+    top: 10px;
+    
+  }
+
+  #textareaID{
+    top:-5px;
+  }
