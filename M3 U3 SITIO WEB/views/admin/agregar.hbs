@@ -2,7 +2,7 @@
     <div class="row">
         <div class="col-6 offset-3">
             <h4>Agregar una nueva novedad</h4>
-            <form action="/admin/novedades/agregar" method="post">
+            <form action="/admin/novedades/agregar" method="post" enctype="multipart/form-data">
             <div class="form-group">
                 <input type="text" class="form-control" placeholder="Titulo" name="titulo">
 
@@ -13,11 +13,17 @@
             <div class="form-group">
                 <textarea type="text" class="form-control" placeholder="Cuerpo" name="cuerpo"></textarea>
             </div>
+            <div class="form-group">
+                <label>Imagen: <input type="file" name="imagen" id="imagen"></label>
+            </div>
             <button type="sumbit" class="btn btn-primary">Guardad</button>
             </form>
         </div>
     </div>
-    {{#if error}}
+    
+</div>
+<div>
+{{#if error}}
     <h5>{{message}}</h5>
     {{/if}}
-</div>
+    </div>

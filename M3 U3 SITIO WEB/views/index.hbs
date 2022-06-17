@@ -58,7 +58,7 @@
                 <img src="tortas/cheesecake.jpg" class="d-block w-100 " alt="...">
                 <div class="carousel-caption d-none d-md-block">
                     <h3>CHEESECAKE</h3>
-                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                    
                 </div>
             </div>
 
@@ -66,14 +66,14 @@
                 <img src="tortas/Chocotorta.jpg" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                     <h3>CHOCOTORTA</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    
                 </div>
             </div>
             <div class="carousel-item">
                 <img src="tortas/lemon-pie.jpg" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                     <h3>LEMON-PIE</h3>
-                    <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                    
                 </div>
             </div>
 
@@ -81,7 +81,7 @@
                 <img src="tortas/pastafrola.jpg" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                     <h3>PASTAFROLA</h3>
-                    <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                    
                 </div>
             </div>
 
@@ -89,7 +89,7 @@
                 <img src="tortas/redvelvet.jpg" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                     <h3>RED VELVET</h3>
-                    <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                    
                 </div>
             </div>
 
@@ -97,7 +97,7 @@
                 <img src="tortas/Tiramisu.jpg" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                     <h3>TIRAMISU</h3>
-                    <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                    
                 </div>
             </div>
 
@@ -105,7 +105,7 @@
                 <img src="tortas/torta-rogel.jpg" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                     <h3>ROGEL</h3>
-                    <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                    
                 </div>
             </div>
 
@@ -127,17 +127,17 @@
 </div>
 
 
-<div id="novedades" class="row py-4">
+<div id="novedades" >
 
-    <div class="col-md-5 offset-md-2 py-3">
-        <h2><br><br>Nuevos Postres</h2>
+    <div >
+        <h2 class="nuevosPostres"><br><br>Nuevos Postres</h2>
         <ul class="lista-novedades">
             {{#each novedades}}
             <li>
 
                 <a href="javascript:void(0);" data-toggle="modal" data-target="#modal{{id}}">
                     <h5 class="tituloNovedades">{{titulo}}</h5>
-                    <img src="images/Brownie.jpg" height="200px" width="300px">
+                    <img src="{{imagen}}" height="200px" width="300px">
 
                 </a>
             </li>
@@ -157,6 +157,7 @@
                 </div>
                 <div class="modal-body">
                     <h5>{{subtitulo}}</h5>
+                    <img  src="{{imagen}}" width="350px" height="250px">
                     <p>{{cuerpo}}</p>
                 </div>
             </div>

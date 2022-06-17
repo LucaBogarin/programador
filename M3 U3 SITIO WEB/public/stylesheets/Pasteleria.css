@@ -31,6 +31,15 @@ nav{
     
       
 }
+
+
+
+.nuevosPostres{
+  text-align: left;
+    color: #2f564e;
+}
+
+
 .fondoImagen{
     display: flex;
     justify-content: center;
